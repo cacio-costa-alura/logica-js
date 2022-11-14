@@ -43,7 +43,7 @@ describe('Essencial', () => {
     });
 });
 
-describe('Importante', () => {
+describe('Desejavel', () => {
 
     test('Deve calcular equacao do segundo grau', () => {
         let raizes1 = equacaoDeSegundoGrau(4, 2, -1);

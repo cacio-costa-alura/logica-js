@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest",
     "test:essencial": "jest -t Essencial",
-    "test:importante": "jest -t Importante",
+    "test:desejavel": "jest -t Desejavel",
     "test:desafio": "jest -t Desafio",
     "test:watch": "jest --watch"
   },
