@@ -22,7 +22,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
           cache: 'npm'
       - run: npm ci
-      - run: npm test:essencial
+      - run: npm run test:essencial
   
   test-desejavel:
     runs-on: ubuntu-latest
@@ -39,7 +39,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
           cache: 'npm'
       - run: npm ci
-      - run: npm test:desejavel
+      - run: npm run test:desejavel
   
   test-desafio:
     runs-on: ubuntu-latest
@@ -56,4 +56,4 @@ jobs:
           node-version: ${{ matrix.node-version }}
           cache: 'npm'
       - run: npm ci
-      - run: npm test:desafio
+      - run: npm run test:desafio
