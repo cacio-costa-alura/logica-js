@@ -104,7 +104,6 @@ function extraiElementosDaData(data) {
 }
 
 /**
- * i 1                                   C  
  * Considerando a sequência de Fibonacci 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, ...,
  * implemente uma função que receba a enésima posição da sequência, e devolva o algarismo correspondente.
  * 
