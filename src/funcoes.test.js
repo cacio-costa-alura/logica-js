@@ -37,9 +37,9 @@ describe('Essencial', () => {
     });
 
     test('Deve calcular média de notas.', () => {
-        calculaMedia([5, 5, 5]).toBe(5);
-        calculaMedia([7, 9, 8]).toBe(8);
-        calculaMedia([3, 5, 4]).toBe(4);
+        expect(calculaMedia([5, 5, 5])).toBe(5);
+        expect(calculaMedia([7, 9, 8])).toBe(8);
+        expect(calculaMedia([3, 5, 4])).toBe(4);
     });
 });
 
